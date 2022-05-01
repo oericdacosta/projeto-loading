@@ -1,0 +1,46 @@
+.container { padding: 0 12px; }
+
+.h1,
+.h2,
+.h3 { color: var(--white); }
+
+.h1 {
+  font-size: var(--fs-1);
+  text-transform: capitalize;
+}
+
+.h2 { font-size: var(--fs-3); }
+
+.h3 { font-size: var(--fs-2); }
+
+.h4 {
+  color: inherit;
+  font-size: var(--fs-5);
+  font-weight: var(--fw-700);
+}
+
+.h5 {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
+.btn {
+  color: var(--white);
+  font-size: var(--fs-9);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  min-width: 130px;
+  padding: 10px 15px;
+  border: 1px solid var(--golden-puppy);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--golden-puppy);
+  color: var(--black);
+}
+
+.btn-primary:is(:hover, :focus) { --golden-puppy: hsl(47, 100%, 45%); }
+
+.btn-secondary:is(:hover, :focus) { background: hsla(47, 100%, 45%, 0.1); }

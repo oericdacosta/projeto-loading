@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/custom-property.css">
+    <link rel="stylesheet" href="../assets/css/resused-style.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/media-queries.css">
+    <link rel="stylesheet" href="../assets/css/create-point.css">
+
+    <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Create point</title>
+</head>
+<body>
+
+    <div id="page-create-point">
+        <header>
+            <figure>
+                <img width="50" src="../assets/images/marvels.svg" alt="">
+                <h1>Avengers</h1>
+            </figure>
+                <a href="home.html" class="btn" href="#">back to home</a>
+        </header>
+
+        <form action="">
+
+            <h1 class="form-title">Villain Registration</h1>
+
+            <fieldset>
+                <legend>
+                    <h2>Identity Data</h2>
+                </legend>
+
+                <div class="field">
+                    <label for="name">Identity Name</label>
+                    <input type="text" name="name">
+                </div>
+
+                <div class="field-group">
+
+                    <div class="field">
+                        <label for="Address">Super Power</label>
+                        <input type="text" name="address">
+                    </div>
+
+                    <div class="field">
+                        <label for="Address2">Weakness</label>
+                        <input type="text" name="address2">
+                    </div>
+                </div>
+
+                <div class="field-group">
+
+                    <div class="field">
+                        <label for="city">Last seen</label>
+                        <input type="text" name="city">
+                    </div>
+
+                    <div class="field">
+                        <label for="state">Home Planet</label>
+                        <input type="text" name="state">
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Register</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    <h2>Crimes</h2>
+                </legend>
+
+                <div class="items-grid">
+                    <li data-id>
+                        <img src="../assets/images/crime-scene.png" alt="">
+                        <span>Murder</span>
+                    </li>
+
+                    <li data-id>
+                        <img src="../assets/images/robber.png" alt="">
+                        <span>Bank robery</span>
+                    </li>
+
+                    <li data-id>
+                        <img src="../assets/images/ladrao.png" alt="">
+                        <span>thief</span>
+                    </li>
+
+                    <li data-id>
+                        <img src="../assets/images/death-star.png" alt="">
+                        <span>Planet Destruction</span>
+                    </li>
+
+                    <li data-id>
+                        <img src="../assets/images/hacker.png" alt="">
+                        <span>Hacker</span>
+                    </li>
+
+                    <li data-id>
+                        <img src="../assets/images/terrorist.png" alt="">
+                        <span>Terrorism</span>
+                    </li>
+
+                </div>
+
+            </fieldset>
+
+
+        </form>
+    </div>
+    
+
+    <script src="../assets/js/create-point.js"></script>
+</body>
+</html>
